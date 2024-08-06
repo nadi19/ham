@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name        Hamster CLONE keygen
 // @version     1.11
-// @homepageURL https://github.com/georg95/hamster-CLONE-keygen/blob/main/README.md
-// @downloadURL https://georg95.github.io/hamster-CLONE-keygen/script.user.js
+// @homepageURL https://github.com/nadi19/ham/blob/main/README.md
+// @downloadURL https://github.com/nadi19/ham/blob/main/script.user.js
 // @author      georg95
 // @namespace   Violentmonkey Scripts
 // @match       *://georg95.github.io/*
@@ -11,7 +11,7 @@
 // @grant       GM_getValue
 // @grant       GM_setValue
 // @run-at      document-end
-// @resource    BACKGROUND https://georg95.github.io/hamster-CLONE-keygen/keygen_bg.jpg
+// @resource    BACKGROUND https://github.com/nadi19/ham/blob/main/keygen_bg.jpg
 // @noframes
 // ==/UserScript==
 
@@ -245,7 +245,7 @@ function createLayout() {
   startBtn.addEventListener('click', runAudio)
   function runAudio() {
     startBtn.removeEventListener('click', runAudio)
-    const audio = new Audio('https://georg95.github.io/hamster-CLONE-keygen/ICU%20-%20CrackMe%20v0.2.mp3')
+    const audio = new Audio('https://github.com/nadi19/ham/blob/main/ICU%20-%20CrackMe%20v0.2.mp3')
     audio.loop = true
     function switchAudio() {
       if (audio.paused) {
