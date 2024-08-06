@@ -2,6 +2,6 @@
 
 # [NEW telegram bot](https://t.me/hamster_bike_keygen_bot)
 
-## [keygen](https://georg95.github.io/bike-keygen.html)
+## [keygen](https://nadi19.github.io/ham.html)
 
-[<img src="demo.jpg" width="400">](https://georg95.github.io/bike-keygen.html)
+[<img src="demo.jpg" width="400">](https://nadi19.github.io/ham.html)
