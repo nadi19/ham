@@ -5,7 +5,7 @@
 // @downloadURL https://github.com/nadi19/ham/blob/main/script.user.js
 // @author      georg95
 // @namespace   Violentmonkey Scripts
-// @match       *://georg95.github.io/*
+// @match       *://nadi19.github.io/*
 // @grant       GM_xmlhttpRequest
 // @grant       GM_getResourceURL
 // @grant       GM_getValue
