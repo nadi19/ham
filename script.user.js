@@ -3,7 +3,7 @@
 // @version     1.11
 // @homepageURL https://github.com/nadi19/ham/blob/main/README.md
 // @downloadURL https://github.com/nadi19/ham/blob/main/script.user.js
-// @author      georg95
+// @author      nadi19
 // @namespace   Violentmonkey Scripts
 // @match       *://nadi19.github.io/*
 // @grant       GM_xmlhttpRequest
@@ -179,7 +179,7 @@ function createLayout() {
   promoLink.style.left = '10px'
   promoLink.style.top = '10px'
   promoLink.href = location.href
-  promoLink.innerText = 'georg95.github.io/CLONE-keygen.html'
+  promoLink.innerText = 'nadi19.github.io/CLONE-keygen.html'
   promoLink.target = '_blank'
 
   const keyText = document.createElement('div')
