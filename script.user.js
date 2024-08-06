@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name        Hamster bike keygen
+// @name        Hamster CLONE keygen
 // @version     1.11
-// @homepageURL https://github.com/georg95/hamster-bike-keygen/blob/main/README.md
-// @downloadURL https://georg95.github.io/hamster-bike-keygen/script.user.js
+// @homepageURL https://github.com/georg95/hamster-CLONE-keygen/blob/main/README.md
+// @downloadURL https://georg95.github.io/hamster-CLONE-keygen/script.user.js
 // @author      georg95
 // @namespace   Violentmonkey Scripts
 // @match       *://georg95.github.io/*
@@ -11,7 +11,7 @@
 // @grant       GM_getValue
 // @grant       GM_setValue
 // @run-at      document-end
-// @resource    BACKGROUND https://georg95.github.io/hamster-bike-keygen/keygen_bg.jpg
+// @resource    BACKGROUND https://georg95.github.io/hamster-CLONE-keygen/keygen_bg.jpg
 // @noframes
 // ==/UserScript==
 
@@ -179,7 +179,7 @@ function createLayout() {
   promoLink.style.left = '10px'
   promoLink.style.top = '10px'
   promoLink.href = location.href
-  promoLink.innerText = 'georg95.github.io/bike-keygen.html'
+  promoLink.innerText = 'georg95.github.io/CLONE-keygen.html'
   promoLink.target = '_blank'
 
   const keyText = document.createElement('div')
@@ -245,7 +245,7 @@ function createLayout() {
   startBtn.addEventListener('click', runAudio)
   function runAudio() {
     startBtn.removeEventListener('click', runAudio)
-    const audio = new Audio('https://georg95.github.io/hamster-bike-keygen/ICU%20-%20CrackMe%20v0.2.mp3')
+    const audio = new Audio('https://georg95.github.io/hamster-CLONE-keygen/ICU%20-%20CrackMe%20v0.2.mp3')
     audio.loop = true
     function switchAudio() {
       if (audio.paused) {
@@ -321,7 +321,7 @@ async function emulateProgess(clientToken) {
 async function generateKey(clientToken) {
     if (DEBUG_MODE) {
       if (attempts[clientToken] >= 5) {
-        return 'BIKE-3YD-5ZA6-3VJA-Y77'
+        return 'CLONE-3YD-5ZA6-3VJA-Y77'
       } else {
         return ''
       }
